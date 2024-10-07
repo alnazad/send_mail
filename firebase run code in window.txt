@@ -1,0 +1,10 @@
+Command to run firebase backend project by python
+------------------------------------------------------
+1. run cmd in firebase backend project
+2.npm install firebase -functions firebase-admin --save
+3.cd functions
+4.python -m venv venv
+5..\venv\scripts\Activate.ps1
+6..\venv\scripts\activate.bat
+7.cd ../
+8.firebase emulators:start
