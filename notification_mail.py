@@ -29,9 +29,9 @@ class NotificationMail:
     @staticmethod
     def send_mail(data):
         try:
-            SERVER = "mail.xorgeek.com"
+            SERVER = "mail.devnazad.com"
             PORT = 587  # Port for TLS
-            FROM = "nazad@xorgeek.com"
+            FROM = "nazad@devnazad.com"
             TO = data["receiver_email"]  # Must be a list
             PASSWORD = "password"  # Replace with your actual password
 
